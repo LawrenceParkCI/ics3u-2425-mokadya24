@@ -5,9 +5,13 @@ package unit1;
  * @author Amir Mokady
  */
 public class AsciiArtName {
-
+	
+	/**
+	 * Entry point to the program
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
-		//name in Ascii art
+		//name in ascii art
 		System.out.println("   ('-.     _   .-')            _  .-')         _   .-')                .-. .-')    ('-.     _ .-') _               ");
 		System.out.println("  ( OO ).-.( '.( OO )_         ( \\( -O )       ( '.( OO )_              \\  ( OO )  ( OO ).-.( (  OO) )              ");
 		System.out.println("  / . --. / ,--.   ,--.) ,-.-') ,------.        ,--.   ,--.).-'),-----. ,--. ,--.  / . --. / \\     .'_   ,--.   ,--.");
