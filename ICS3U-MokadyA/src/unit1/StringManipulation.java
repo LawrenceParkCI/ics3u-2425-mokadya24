@@ -22,7 +22,7 @@ public class StringManipulation {
 			newSentence = sc.nextLine();
 		sc.close();
 		
-		//declaring new variables
+		//declaring new variables based on the initialization of the sentence
 		String uprCase = newSentence.toUpperCase();
 		String lwrCase = newSentence.toLowerCase();
 		char letter = newSentence.charAt(5);
@@ -30,7 +30,7 @@ public class StringManipulation {
 		int lastWord = newSentence.lastIndexOf(" ");
 		
 		//manipulating the sentence
-		System.out.println("\nThis is how I will change your sentence:");
+		System.out.println("\nThis is how I will change your sentence:\n");
 		System.out.println(newSentence + " is your sentence");
 		System.out.println(uprCase);
 		System.out.println(lwrCase);
