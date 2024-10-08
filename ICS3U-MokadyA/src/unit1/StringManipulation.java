@@ -14,7 +14,7 @@ public class StringManipulation {
 	 */
 	public static void main(String[] args) {
 		//declaring variable
-		String newSentence;		
+		String newSentence;
 		
 		//finding the sentence to use
 		Scanner sc = new Scanner(System.in);
@@ -26,6 +26,8 @@ public class StringManipulation {
 		String uprCase = newSentence.toUpperCase();
 		String lwrCase = newSentence.toLowerCase();
 		char letter = newSentence.charAt(5);
+		int firstWord = newSentence.indexOf(" ");
+		int lastWord = newSentence.lastIndexOf(" ");
 		
 		//manipulating the sentence
 		System.out.println("\nThis is how I will change your sentence:");
@@ -33,8 +35,9 @@ public class StringManipulation {
 		System.out.println(uprCase);
 		System.out.println(lwrCase);
 		System.out.println("Your sentence has " + newSentence.length() + " letters (including spaces)");
-		System.out.println("At index 5, the character is " + letter);
-		
+		System.out.println("At index 5, the character is: " + letter);
+		System.out.println("The first word of your sentence is: " + newSentence.substring(0,firstWord));
+		System.out.println("The lst word of your sentence is: " + newSentence.substring(lastWord));
 	}
 
 }
