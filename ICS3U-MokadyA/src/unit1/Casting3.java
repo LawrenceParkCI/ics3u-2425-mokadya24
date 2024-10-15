@@ -52,5 +52,6 @@ public class Casting3 {
 
     System.out.println(myNum2);
     //When do you think it might be necessary to change a string value into an integer value/double value?
+    //if we are asking for a rating from a customer, or in some calculations
   }
 }
