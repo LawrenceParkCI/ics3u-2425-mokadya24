@@ -62,7 +62,7 @@ public class DoubleDiceContest {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Would you like to play again?");
 			restart = sc.nextLine();
-			
+
 			if (restart.equalsIgnoreCase("yes") || restart.equalsIgnoreCase("y") || restart.equalsIgnoreCase("ya")) {
 				System.out.println("Okay, lets restart");
 				loop = 1;
